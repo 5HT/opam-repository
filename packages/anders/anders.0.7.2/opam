@@ -13,9 +13,9 @@ depends: [
 build: ["dune" "build" "-p" name "-j" jobs]
 dev-repo: "git+https://github.com/groupoid/anders"
 url {
-  src: "https://github.com/groupoid/anders/archive/0.7.2.tar.gz"
+  src: "https://github.com/groupoid/anders/archive/refs/tags/0.7.2.zip"
   checksum: [
-    "md5=e9f12921b951fa2529481390c6fb3864"
-    "sha512=afc27c83c4bdcb5fb93e1b58bdcc9b08a28f002f15d0e27a7e509666ca3f6bad47fc7296a72cd68aeee7d24175d2c64ee4688edeedc79adedab7cb1f5bb19760"
+    "md5=5655e8e183f369ed1e95d5d04d530ade"
+    "sha512=9c987c2481cfc180a914d84935008ff411109c92bd15b9d998942b37bcdde3ce887eb481bad41f4fc4b9d8cd168a416ce86a9e8aadd77a2a896c2ac171be796a"
   ]
 }
